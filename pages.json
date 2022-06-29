@@ -1,0 +1,295 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh":false,
+				"navigationStyle":"custom",
+				"app-plus":{
+					"pullToRefresh":{
+						"color":"red"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/area",
+			"style": {
+				"navigationBarTitleText": "专区分类",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/index/message",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"pullToRefresh":{
+						"color":"red"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	    ,{
+            "path" : "pages/index/indexPages/pageData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"fontSize":"30px",
+								"type":"home"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/loginPages/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/user/userData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人空间",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/user/userPageData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章管理",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"fontSize":"30px",
+								"type":"plus"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/user/historyData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史足迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/user/userData_All",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/indexPages/pageSearch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章筛选",
+                "enablePullDownRefresh": true,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/indexPages/pageInput",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/indexPages/pageReturn",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "举报文章",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/user/userSafe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号安全",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/user/forWe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/user/loginData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录信息记录",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path" : "pages/index/loginPages/changePwd",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "修改密码",
+			    "enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/index/loginPages/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/loginPages/forget",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "忘记密码",
+                "enablePullDownRefresh": false
+            }
+        },{
+            "path" : "pages/index/user/return",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "反馈",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/index/payPages/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "充值",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/payPages/payInit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+		,{
+		    "path" : "pages/index/user/downData",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "提现记录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/index/user/upCoinData",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "充值记录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/index/user/ToMeData",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "获赏记录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Void",
+		"navigationBarBackgroundColor": "#333333",
+		"backgroundColor": "#F8F8F8",
+		"app-plus":{
+			"scrollIndicator":"none"
+		}
+	},
+	"tabBar":{
+		"borderStyle":"black",
+		"backgroundColor":"#333",
+		"color":"#666",
+		"selectedColor":"#fff",
+		"fontSize":"12px",
+		"iconWidth":"25px",
+		"height":"55px",
+		"list":[
+			{
+				"text":"主页",
+				"pagePath":"pages/index/index",
+				"iconPath":"./static/icon/home-3-line.png",
+				"selectedIconPath":"./static/icon/home-3-fill.png"
+			},
+			{
+				"text":"专区",
+				"pagePath":"pages/index/area",
+				"iconPath":"./static/icon/function-line.png",
+				"selectedIconPath":"./static/icon/function-fill.png"
+			},
+			{
+				"text":"消息",
+				"pagePath":"pages/index/message",
+				"iconPath":"./static/icon/message-2-line.png",
+				"selectedIconPath":"./static/icon/message-2-fill.png"
+			},
+			{
+				"text":"个人",
+				"pagePath":"pages/index/user",
+				"iconPath":"./static/icon/user-line.png",
+				"selectedIconPath":"./static/icon/user-fill.png"
+			}
+		]
+	}
+}
